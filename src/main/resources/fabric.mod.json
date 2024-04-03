@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "pluginmanagerpatch",
   "version": "${version}",
-  "name": "ExampleMod",
-  "description": "Your mod description.",
+  "name": "PluginManagerPatch",
+  "description": "A LunarCore mod to patch the PluginManager to load plugins correctly with Fabric Loader.",
   "authors": [
-    "You"
+    "yuko1101"
   ],
   "contact": {
-    "website": "https://example.com",
-    "repo": "https://example.com/you/your_repo"
+    "website": "https://github.com/yuko1101/PluginManagerPatch",
+    "repo": "https://github.com/yuko1101/PluginManagerPatch"
   },
   "license": "MIT",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/pluginmanagerpatch/icon.png",
   "environment": "server",
   "entrypoints": {
     "main": [
-      "com.example.examplemod.ExampleMod"
+      "io.github.yuko1101.pluginmanagerpatch.PluginManagerPatch"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "pluginmanagerpatch.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

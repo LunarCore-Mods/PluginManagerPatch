@@ -1,12 +1,12 @@
-package com.example.examplemod;
+package io.github.yuko1101.pluginmanagerpatch;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.impl.util.log.Log;
 import net.fabricmc.loader.impl.util.log.LogCategory;
 
-public class ExampleMod implements ModInitializer {
+public class PluginManagerPatch implements ModInitializer {
 
-    public static final String MOD_NAME = "ExampleMod";
+    public static final String MOD_NAME = "PluginManagerPatch";
 
     public static final LogCategory LOG_CATEGORY = LogCategory.create(MOD_NAME);
 
