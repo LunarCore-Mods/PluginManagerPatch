@@ -4,6 +4,7 @@
   "package": "io.github.yuko1101.pluginmanagerpatch.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PluginManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
