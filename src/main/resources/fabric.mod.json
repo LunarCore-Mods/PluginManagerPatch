@@ -8,15 +8,15 @@
     "yuko1101"
   ],
   "contact": {
-    "website": "https://github.com/yuko1101/PluginManagerPatch",
-    "repo": "https://github.com/yuko1101/PluginManagerPatch"
+    "website": "https://github.com/LunarCore-Mods/PluginManagerPatch",
+    "repo": "https://github.com/LunarCore-Mods/PluginManagerPatch"
   },
   "license": "MIT",
   "icon": "assets/pluginmanagerpatch/icon.png",
   "environment": "server",
   "entrypoints": {
     "main": [
-      "io.github.yuko1101.pluginmanagerpatch.PluginManagerPatch"
+      "io.github.lunarcoremods.pluginmanagerpatch.PluginManagerPatch"
     ]
   },
   "mixins": [

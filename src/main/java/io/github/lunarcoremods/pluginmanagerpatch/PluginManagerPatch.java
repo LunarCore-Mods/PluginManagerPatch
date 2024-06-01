@@ -1,4 +1,4 @@
-package io.github.yuko1101.pluginmanagerpatch;
+package io.github.lunarcoremods.pluginmanagerpatch;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.impl.util.log.Log;

@@ -1,4 +1,4 @@
-package io.github.yuko1101.pluginmanagerpatch.mixin;
+package io.github.lunarcoremods.pluginmanagerpatch.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import emu.lunarcore.plugin.PluginManager;
